@@ -5,28 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd5e518d-9dd0-40a6-9d6c-fd9fede6e89f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hooks/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/Post.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/BasicRequest01Steps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/JsonPathExtraction04Steps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/RequestBuilding02Steps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/ResponseValidation03Steps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Serialization05Steps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/TestContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/01_basic_requests.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/02_request_building.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/03_response_validation.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/04_json_path_extraction.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/05_serialization_deserialization.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Authentication07Steps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/ReusableSpec06Steps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/SpecBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/07_authentication.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/06_reusable_specs.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/06_reusable_specs.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,19 +38,19 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "main"
   }
 }]]></component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Deserialize a JSON Array into a generic List&lt;Post&gt;">
-    <configuration name="Scenario: Deserialize a JSON Array into a generic List&lt;Post&gt;" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Bearer token authentication">
+    <configuration name="Scenario: Basic authentication with correct credentials succeeds" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/05_serialization_deserialization.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/07_authentication.feature" />
       <option name="GLUE" value="stepdefinitions hooks" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="RestAssured_Cucumber_TestNG_Detail" />
-      <option name="NAME_FILTER" value="^Deserialize a JSON Array into a generic List\&lt;Post\&gt;$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Deserialize a JSON Array into a generic List\&lt;Post\&gt;$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Deserialize a JSON Array into a generic List&lt;Post&gt;" />
+      <option name="NAME_FILTER" value="^Basic authentication with correct credentials succeeds$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Basic authentication with correct credentials succeeds$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Basic authentication with correct credentials succeeds" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -77,15 +62,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Deserialize a single JSON Object into a POJO" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Bearer token authentication" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/05_serialization_deserialization.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/07_authentication.feature" />
       <option name="GLUE" value="stepdefinitions hooks" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="RestAssured_Cucumber_TestNG_Detail" />
-      <option name="NAME_FILTER" value="^Deserialize a single JSON Object into a POJO$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Deserialize a single JSON Object into a POJO$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Deserialize a single JSON Object into a POJO" />
+      <option name="NAME_FILTER" value="^Bearer token authentication$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Bearer token authentication$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Bearer token authentication" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -97,15 +82,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Deserialize nested JSON into a nested POJO" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Reusable response spec asserts content type and response time together" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/05_serialization_deserialization.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/06_reusable_specs.feature" />
       <option name="GLUE" value="stepdefinitions hooks" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="RestAssured_Cucumber_TestNG_Detail" />
-      <option name="NAME_FILTER" value="^Deserialize nested JSON into a nested POJO$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Deserialize nested JSON into a nested POJO$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Deserialize nested JSON into a nested POJO" />
+      <option name="NAME_FILTER" value="^Reusable response spec asserts content type and response time together$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Reusable response spec asserts content type and response time together$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Reusable response spec asserts content type and response time together" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -117,15 +102,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Serialize a POJO as a request body" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Using a Prebuilt request spec against httpbin" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/05_serialization_deserialization.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/06_reusable_specs.feature" />
       <option name="GLUE" value="stepdefinitions hooks" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="RestAssured_Cucumber_TestNG_Detail" />
-      <option name="NAME_FILTER" value="^Serialize a POJO as a request body$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Serialize a POJO as a request body$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Serialize a POJO as a request body" />
+      <option name="NAME_FILTER" value="^Using a Prebuilt request spec against httpbin$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Using a Prebuilt request spec against httpbin$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Using a Prebuilt request spec against httpbin" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -137,30 +122,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRunner" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Using a prebuilt request spec against JSONPlaceholder" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/06_reusable_specs.feature" />
+      <option name="GLUE" value="stepdefinitions hooks" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="RestAssured_Cucumber_TestNG_Detail" />
+      <option name="NAME_FILTER" value="^Using a prebuilt request spec against JSONPlaceholder$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Using a prebuilt request spec against JSONPlaceholder$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Using a prebuilt request spec against JSONPlaceholder" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="runners.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="runners" />
-      <option name="MAIN_CLASS_NAME" value="runners.TestRunner" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Deserialize a JSON Array into a generic List&lt;Post&gt;" />
-        <item itemvalue="Cucumber Java.Scenario: Deserialize nested JSON into a nested POJO" />
-        <item itemvalue="Cucumber Java.Scenario: Deserialize a single JSON Object into a POJO" />
-        <item itemvalue="Cucumber Java.Scenario: Serialize a POJO as a request body" />
-        <item itemvalue="TestNG.TestRunner" />
+        <item itemvalue="Cucumber Java.Scenario: Bearer token authentication" />
+        <item itemvalue="Cucumber Java.Scenario: Basic authentication with correct credentials succeeds" />
+        <item itemvalue="Cucumber Java.Scenario: Reusable response spec asserts content type and response time together" />
+        <item itemvalue="Cucumber Java.Scenario: Using a Prebuilt request spec against httpbin" />
+        <item itemvalue="Cucumber Java.Scenario: Using a prebuilt request spec against JSONPlaceholder" />
       </list>
     </recent_temporary>
   </component>
