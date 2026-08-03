@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd5e518d-9dd0-40a6-9d6c-fd9fede6e89f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/SchemaValidation08Steps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/08_schema_validation.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/09_data_driven.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/schema/post-schema.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/ChainedRequest10Steps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/10_chained_requests.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +37,7 @@
     "git-widget-placeholder": "main"
   }
 }]]></component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Response matches the expected Post schema">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Create a post , then fetch the user who owns it">
     <configuration name="Scenario: Basic authentication with correct credentials succeeds" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/07_authentication.feature" />
@@ -71,6 +67,26 @@
       <option name="NAME_FILTER" value="^Bearer token authentication$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Bearer token authentication$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: Bearer token authentication" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Create a post , then fetch the user who owns it" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/10_chained_requests.feature" />
+      <option name="GLUE" value="stepdefinitions hooks" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="RestAssured_Cucumber_TestNG_Detail" />
+      <option name="NAME_FILTER" value="^Create a post \, then fetch the user who owns it$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Create a post \, then fetch the user who owns it$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Create a post , then fetch the user who owns it" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -122,33 +138,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Using a Prebuilt request spec against httpbin" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/06_reusable_specs.feature" />
-      <option name="GLUE" value="stepdefinitions hooks" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="RestAssured_Cucumber_TestNG_Detail" />
-      <option name="NAME_FILTER" value="^Using a Prebuilt request spec against httpbin$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Using a Prebuilt request spec against httpbin$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Using a Prebuilt request spec against httpbin" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Create a post , then fetch the user who owns it" />
         <item itemvalue="Cucumber Java.Scenario: Response matches the expected Post schema" />
         <item itemvalue="Cucumber Java.Scenario: Bearer token authentication" />
         <item itemvalue="Cucumber Java.Scenario: Basic authentication with correct credentials succeeds" />
         <item itemvalue="Cucumber Java.Scenario: Reusable response spec asserts content type and response time together" />
-        <item itemvalue="Cucumber Java.Scenario: Using a Prebuilt request spec against httpbin" />
       </list>
     </recent_temporary>
   </component>
